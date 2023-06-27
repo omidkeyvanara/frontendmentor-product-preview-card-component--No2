@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Fraunces';
+}
+
+html {
+  font-size: 62.5%;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+  max-width: 1440rem;
+  display: flex;
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main img {
+  max-width: 30rem;
+border-radius: 10px 0 0 10px;
+}
+
+.text-box {
+  max-width: 30rem;
+  background-color: #fff;
+  padding: 3rem 0 0 4rem;
+border-radius: 0 10px 10px 0;
+}
+
+.product {
+  font-size: 1.2rem;
+  color: #757474;
+  font-weight: 500;
+  letter-spacing: 9px;
+}
+
+.text-box h1 {
+  font-size: 3rem;
+  font-family: 'Fraunces';
+  line-height: 1;
+  margin: 2.5rem 0;
+}
+
+.description {
+  font-size: 1.35rem;
+  color: #757474;
+  font-weight: 500;
+  line-height: 1.7;
+  padding-right: 2.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2.7rem 0;
+}
+
+.price1 {
+  font-size: 3rem;
+  font-family: 'Fraunces';
+  color: hsl(158, 36%, 37%);
+}
+
+.price2 {
+  text-decoration: line-through;
+  font-size: 1.35rem;
+  color: #757474;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  display: inline-block;
+  padding: 1.2rem 6rem;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  border-radius: 8px;
+  border: none;
+
+}
+
+.btn img,
+.btn span {
+  vertical-align: middle;
+}
+
+
+.btn img {
+  margin-right: 1rem;
+}
